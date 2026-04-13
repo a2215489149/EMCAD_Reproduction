@@ -1,0 +1,627 @@
+[2026-04-12 12:22:51,401] Run seed: 240412
+[2026-04-12 12:22:51,401] ACMS enabled: True
+[2026-04-12 12:22:57,966] flops: 10.579868042, params: 26.764399, Total params: : 26.7644
+[2026-04-12 12:30:20,065] ACMS epoch 1 | pool=pool_a | mean_adj_disagreement=0.306407 | ema_adj_disagreement=0.306407 | below_threshold_epochs=0 | switched=False
+[2026-04-12 12:30:22,061] Epoch: 1, Dataset: test, Dice: 0.5384, IoU: 0.3907
+[2026-04-12 12:30:23,643] Epoch: 1, Dataset: val, Dice: 0.5193, IoU: 0.3690
+[2026-04-12 12:30:23,643] ### Best Model Saved (Dice improved from 0.0000 to 0.5193) ###
+[2026-04-12 12:37:41,877] ACMS epoch 2 | pool=pool_a | mean_adj_disagreement=0.215639 | ema_adj_disagreement=0.297330 | below_threshold_epochs=0 | switched=False
+[2026-04-12 12:37:43,863] Epoch: 2, Dataset: test, Dice: 0.8745, IoU: 0.7960
+[2026-04-12 12:37:45,273] Epoch: 2, Dataset: val, Dice: 0.8091, IoU: 0.7178
+[2026-04-12 12:37:45,273] ### Best Model Saved (Dice improved from 0.5193 to 0.8091) ###
+[2026-04-12 12:44:18,135] ACMS epoch 3 | pool=pool_a | mean_adj_disagreement=0.182099 | ema_adj_disagreement=0.285807 | below_threshold_epochs=0 | switched=False
+[2026-04-12 12:44:19,524] Epoch: 3, Dataset: test, Dice: 0.8798, IoU: 0.8023
+[2026-04-12 12:44:20,711] Epoch: 3, Dataset: val, Dice: 0.8076, IoU: 0.7077
+[2026-04-12 12:50:39,682] ACMS epoch 4 | pool=pool_a | mean_adj_disagreement=0.173757 | ema_adj_disagreement=0.274602 | below_threshold_epochs=0 | switched=False
+[2026-04-12 12:50:41,180] Epoch: 4, Dataset: test, Dice: 0.5328, IoU: 0.4456
+[2026-04-12 12:50:42,444] Epoch: 4, Dataset: val, Dice: 0.4847, IoU: 0.3877
+[2026-04-12 12:56:30,074] ACMS epoch 5 | pool=pool_a | mean_adj_disagreement=0.180811 | ema_adj_disagreement=0.265223 | below_threshold_epochs=0 | switched=False
+[2026-04-12 12:56:31,546] Epoch: 5, Dataset: test, Dice: 0.8764, IoU: 0.8064
+[2026-04-12 12:56:32,670] Epoch: 5, Dataset: val, Dice: 0.8235, IoU: 0.7378
+[2026-04-12 12:56:32,670] ### Best Model Saved (Dice improved from 0.8091 to 0.8235) ###
+[2026-04-12 13:02:10,686] ACMS epoch 6 | pool=pool_a | mean_adj_disagreement=0.156154 | ema_adj_disagreement=0.254316 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:02:12,106] Epoch: 6, Dataset: test, Dice: 0.8590, IoU: 0.7716
+[2026-04-12 13:02:13,236] Epoch: 6, Dataset: val, Dice: 0.7991, IoU: 0.7022
+[2026-04-12 13:07:48,834] ACMS epoch 7 | pool=pool_a | mean_adj_disagreement=0.152984 | ema_adj_disagreement=0.244183 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:07:50,332] Epoch: 7, Dataset: test, Dice: 0.8162, IoU: 0.7295
+[2026-04-12 13:07:51,437] Epoch: 7, Dataset: val, Dice: 0.7649, IoU: 0.6684
+[2026-04-12 13:13:27,360] ACMS epoch 8 | pool=pool_a | mean_adj_disagreement=0.136597 | ema_adj_disagreement=0.233424 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:13:28,835] Epoch: 8, Dataset: test, Dice: 0.8966, IoU: 0.8315
+[2026-04-12 13:13:29,974] Epoch: 8, Dataset: val, Dice: 0.8510, IoU: 0.7725
+[2026-04-12 13:13:29,974] ### Best Model Saved (Dice improved from 0.8235 to 0.8510) ###
+[2026-04-12 13:19:07,118] ACMS epoch 9 | pool=pool_a | mean_adj_disagreement=0.134312 | ema_adj_disagreement=0.223513 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:19:08,648] Epoch: 9, Dataset: test, Dice: 0.6464, IoU: 0.5444
+[2026-04-12 13:19:09,755] Epoch: 9, Dataset: val, Dice: 0.6178, IoU: 0.5078
+[2026-04-12 13:24:45,913] ACMS epoch 10 | pool=pool_a | mean_adj_disagreement=0.148575 | ema_adj_disagreement=0.216019 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:24:47,347] Epoch: 10, Dataset: test, Dice: 0.8439, IoU: 0.7692
+[2026-04-12 13:24:48,474] Epoch: 10, Dataset: val, Dice: 0.7978, IoU: 0.7147
+[2026-04-12 13:30:46,877] ACMS epoch 11 | pool=pool_a | mean_adj_disagreement=0.132467 | ema_adj_disagreement=0.207664 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:30:48,308] Epoch: 11, Dataset: test, Dice: 0.9091, IoU: 0.8436
+[2026-04-12 13:30:49,457] Epoch: 11, Dataset: val, Dice: 0.8583, IoU: 0.7841
+[2026-04-12 13:30:49,457] ### Best Model Saved (Dice improved from 0.8510 to 0.8583) ###
+[2026-04-12 13:36:32,408] ACMS epoch 12 | pool=pool_a | mean_adj_disagreement=0.124719 | ema_adj_disagreement=0.199369 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:36:33,822] Epoch: 12, Dataset: test, Dice: 0.8700, IoU: 0.8062
+[2026-04-12 13:36:34,925] Epoch: 12, Dataset: val, Dice: 0.8535, IoU: 0.7793
+[2026-04-12 13:42:10,851] ACMS epoch 13 | pool=pool_a | mean_adj_disagreement=0.111991 | ema_adj_disagreement=0.190632 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:42:12,197] Epoch: 13, Dataset: test, Dice: 0.8915, IoU: 0.8278
+[2026-04-12 13:42:13,264] Epoch: 13, Dataset: val, Dice: 0.8750, IoU: 0.8045
+[2026-04-12 13:42:13,265] ### Best Model Saved (Dice improved from 0.8583 to 0.8750) ###
+[2026-04-12 13:47:49,333] ACMS epoch 14 | pool=pool_a | mean_adj_disagreement=0.104589 | ema_adj_disagreement=0.182027 | below_threshold_epochs=0 | switched=False
+[2026-04-12 13:47:50,789] Epoch: 14, Dataset: test, Dice: 0.9206, IoU: 0.8613
+[2026-04-12 13:47:51,909] Epoch: 14, Dataset: val, Dice: 0.8868, IoU: 0.8147
+[2026-04-12 13:47:51,909] ### Best Model Saved (Dice improved from 0.8750 to 0.8868) ###
+[2026-04-12 13:53:27,879] ACMS epoch 15 | pool=pool_a | mean_adj_disagreement=0.115426 | ema_adj_disagreement=0.175367 | below_threshold_epochs=1 | switched=False
+[2026-04-12 13:53:29,287] Epoch: 15, Dataset: test, Dice: 0.9331, IoU: 0.8785
+[2026-04-12 13:53:30,381] Epoch: 15, Dataset: val, Dice: 0.8690, IoU: 0.7949
+[2026-04-12 14:00:25,894] ACMS epoch 16 | pool=pool_a | mean_adj_disagreement=0.108277 | ema_adj_disagreement=0.168658 | below_threshold_epochs=2 | switched=False
+[2026-04-12 14:00:27,783] Epoch: 16, Dataset: test, Dice: 0.8238, IoU: 0.7554
+[2026-04-12 14:00:29,359] Epoch: 16, Dataset: val, Dice: 0.7808, IoU: 0.6990
+[2026-04-12 14:06:38,071] ACMS epoch 17 | pool=pool_b | mean_adj_disagreement=0.106667 | ema_adj_disagreement=0.162459 | below_threshold_epochs=3 | switched=True
+[2026-04-12 14:06:38,969] Epoch: 17, Dataset: test, Dice: 0.9339, IoU: 0.8827
+[2026-04-12 14:06:39,666] Epoch: 17, Dataset: val, Dice: 0.8896, IoU: 0.8263
+[2026-04-12 14:06:39,666] ### Best Model Saved (Dice improved from 0.8868 to 0.8896) ###
+[2026-04-12 14:12:41,981] ACMS epoch 18 | pool=pool_b | mean_adj_disagreement=0.145509 | ema_adj_disagreement=0.160764 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:12:43,759] Epoch: 18, Dataset: test, Dice: 0.9142, IoU: 0.8534
+[2026-04-12 14:12:45,224] Epoch: 18, Dataset: val, Dice: 0.8421, IoU: 0.7581
+[2026-04-12 14:21:06,942] ACMS epoch 19 | pool=pool_b | mean_adj_disagreement=0.140625 | ema_adj_disagreement=0.158750 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:21:08,747] Epoch: 19, Dataset: test, Dice: 0.9117, IoU: 0.8513
+[2026-04-12 14:21:10,196] Epoch: 19, Dataset: val, Dice: 0.8265, IoU: 0.7505
+[2026-04-12 14:30:09,731] ACMS epoch 20 | pool=pool_b | mean_adj_disagreement=0.148251 | ema_adj_disagreement=0.157700 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:30:12,786] Epoch: 20, Dataset: test, Dice: 0.6383, IoU: 0.5373
+[2026-04-12 14:30:15,170] Epoch: 20, Dataset: val, Dice: 0.6271, IoU: 0.5255
+[2026-04-12 14:39:32,485] ACMS epoch 21 | pool=pool_b | mean_adj_disagreement=0.136239 | ema_adj_disagreement=0.155554 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:39:34,274] Epoch: 21, Dataset: test, Dice: 0.8654, IoU: 0.7941
+[2026-04-12 14:39:35,676] Epoch: 21, Dataset: val, Dice: 0.7864, IoU: 0.6906
+[2026-04-12 14:45:31,635] ACMS epoch 22 | pool=pool_b | mean_adj_disagreement=0.128969 | ema_adj_disagreement=0.152896 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:45:33,026] Epoch: 22, Dataset: test, Dice: 0.9152, IoU: 0.8593
+[2026-04-12 14:45:34,133] Epoch: 22, Dataset: val, Dice: 0.8983, IoU: 0.8290
+[2026-04-12 14:45:34,133] ### Best Model Saved (Dice improved from 0.8896 to 0.8983) ###
+[2026-04-12 14:51:16,072] ACMS epoch 23 | pool=pool_b | mean_adj_disagreement=0.118282 | ema_adj_disagreement=0.149434 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:51:17,621] Epoch: 23, Dataset: test, Dice: 0.8853, IoU: 0.8178
+[2026-04-12 14:51:18,967] Epoch: 23, Dataset: val, Dice: 0.8699, IoU: 0.7980
+[2026-04-12 14:57:12,842] ACMS epoch 24 | pool=pool_b | mean_adj_disagreement=0.135305 | ema_adj_disagreement=0.148021 | below_threshold_epochs=3 | switched=False
+[2026-04-12 14:57:14,323] Epoch: 24, Dataset: test, Dice: 0.9297, IoU: 0.8742
+[2026-04-12 14:57:15,792] Epoch: 24, Dataset: val, Dice: 0.9004, IoU: 0.8306
+[2026-04-12 14:57:15,793] ### Best Model Saved (Dice improved from 0.8983 to 0.9004) ###
+[2026-04-12 15:03:18,996] ACMS epoch 25 | pool=pool_b | mean_adj_disagreement=0.123006 | ema_adj_disagreement=0.145520 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:03:20,514] Epoch: 25, Dataset: test, Dice: 0.9317, IoU: 0.8774
+[2026-04-12 15:03:21,679] Epoch: 25, Dataset: val, Dice: 0.8784, IoU: 0.8023
+[2026-04-12 15:09:10,401] ACMS epoch 26 | pool=pool_b | mean_adj_disagreement=0.129775 | ema_adj_disagreement=0.143945 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:09:11,864] Epoch: 26, Dataset: test, Dice: 0.9328, IoU: 0.8791
+[2026-04-12 15:09:12,991] Epoch: 26, Dataset: val, Dice: 0.9040, IoU: 0.8433
+[2026-04-12 15:09:12,991] ### Best Model Saved (Dice improved from 0.9004 to 0.9040) ###
+[2026-04-12 15:14:52,680] ACMS epoch 27 | pool=pool_b | mean_adj_disagreement=0.106854 | ema_adj_disagreement=0.140236 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:14:54,096] Epoch: 27, Dataset: test, Dice: 0.9389, IoU: 0.8899
+[2026-04-12 15:14:55,180] Epoch: 27, Dataset: val, Dice: 0.9104, IoU: 0.8510
+[2026-04-12 15:14:55,180] ### Best Model Saved (Dice improved from 0.9040 to 0.9104) ###
+[2026-04-12 15:20:34,757] ACMS epoch 28 | pool=pool_b | mean_adj_disagreement=0.104042 | ema_adj_disagreement=0.136617 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:20:36,174] Epoch: 28, Dataset: test, Dice: 0.9361, IoU: 0.8836
+[2026-04-12 15:20:37,245] Epoch: 28, Dataset: val, Dice: 0.8872, IoU: 0.8205
+[2026-04-12 15:28:04,498] ACMS epoch 29 | pool=pool_b | mean_adj_disagreement=0.103645 | ema_adj_disagreement=0.133319 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:28:05,964] Epoch: 29, Dataset: test, Dice: 0.9042, IoU: 0.8503
+[2026-04-12 15:28:07,643] Epoch: 29, Dataset: val, Dice: 0.9079, IoU: 0.8432
+[2026-04-12 15:34:10,038] ACMS epoch 30 | pool=pool_b | mean_adj_disagreement=0.099981 | ema_adj_disagreement=0.129986 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:34:11,439] Epoch: 30, Dataset: test, Dice: 0.9468, IoU: 0.9008
+[2026-04-12 15:34:12,551] Epoch: 30, Dataset: val, Dice: 0.9117, IoU: 0.8525
+[2026-04-12 15:34:12,551] ### Best Model Saved (Dice improved from 0.9104 to 0.9117) ###
+[2026-04-12 15:40:01,016] ACMS epoch 31 | pool=pool_b | mean_adj_disagreement=0.104121 | ema_adj_disagreement=0.127399 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:40:02,426] Epoch: 31, Dataset: test, Dice: 0.9253, IoU: 0.8693
+[2026-04-12 15:40:03,513] Epoch: 31, Dataset: val, Dice: 0.8700, IoU: 0.8027
+[2026-04-12 15:45:35,977] ACMS epoch 32 | pool=pool_b | mean_adj_disagreement=0.104345 | ema_adj_disagreement=0.125094 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:45:37,322] Epoch: 32, Dataset: test, Dice: 0.8919, IoU: 0.8308
+[2026-04-12 15:45:38,396] Epoch: 32, Dataset: val, Dice: 0.8394, IoU: 0.7621
+[2026-04-12 15:51:00,222] ACMS epoch 33 | pool=pool_b | mean_adj_disagreement=0.112301 | ema_adj_disagreement=0.123815 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:51:01,576] Epoch: 33, Dataset: test, Dice: 0.9109, IoU: 0.8503
+[2026-04-12 15:51:02,705] Epoch: 33, Dataset: val, Dice: 0.9030, IoU: 0.8371
+[2026-04-12 15:56:36,625] ACMS epoch 34 | pool=pool_b | mean_adj_disagreement=0.097520 | ema_adj_disagreement=0.121185 | below_threshold_epochs=3 | switched=False
+[2026-04-12 15:56:37,977] Epoch: 34, Dataset: test, Dice: 0.9388, IoU: 0.8902
+[2026-04-12 15:56:39,022] Epoch: 34, Dataset: val, Dice: 0.9140, IoU: 0.8548
+[2026-04-12 15:56:39,022] ### Best Model Saved (Dice improved from 0.9117 to 0.9140) ###
+[2026-04-12 16:02:45,522] ACMS epoch 35 | pool=pool_b | mean_adj_disagreement=0.096558 | ema_adj_disagreement=0.118722 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:02:46,868] Epoch: 35, Dataset: test, Dice: 0.9385, IoU: 0.8894
+[2026-04-12 16:02:47,931] Epoch: 35, Dataset: val, Dice: 0.8729, IoU: 0.8019
+[2026-04-12 16:08:46,396] ACMS epoch 36 | pool=pool_b | mean_adj_disagreement=0.095578 | ema_adj_disagreement=0.116408 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:08:47,753] Epoch: 36, Dataset: test, Dice: 0.9365, IoU: 0.8833
+[2026-04-12 16:08:48,846] Epoch: 36, Dataset: val, Dice: 0.8883, IoU: 0.8255
+[2026-04-12 16:14:49,347] ACMS epoch 37 | pool=pool_b | mean_adj_disagreement=0.105816 | ema_adj_disagreement=0.115349 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:14:50,726] Epoch: 37, Dataset: test, Dice: 0.9162, IoU: 0.8547
+[2026-04-12 16:14:51,864] Epoch: 37, Dataset: val, Dice: 0.9010, IoU: 0.8347
+[2026-04-12 16:20:17,296] ACMS epoch 38 | pool=pool_b | mean_adj_disagreement=0.097022 | ema_adj_disagreement=0.113516 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:20:18,715] Epoch: 38, Dataset: test, Dice: 0.9331, IoU: 0.8791
+[2026-04-12 16:20:19,828] Epoch: 38, Dataset: val, Dice: 0.9135, IoU: 0.8573
+[2026-04-12 16:25:46,258] ACMS epoch 39 | pool=pool_b | mean_adj_disagreement=0.086199 | ema_adj_disagreement=0.110784 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:25:47,604] Epoch: 39, Dataset: test, Dice: 0.9298, IoU: 0.8774
+[2026-04-12 16:25:48,695] Epoch: 39, Dataset: val, Dice: 0.8960, IoU: 0.8407
+[2026-04-12 16:31:13,342] ACMS epoch 40 | pool=pool_b | mean_adj_disagreement=0.092987 | ema_adj_disagreement=0.109005 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:31:14,747] Epoch: 40, Dataset: test, Dice: 0.9181, IoU: 0.8637
+[2026-04-12 16:31:15,809] Epoch: 40, Dataset: val, Dice: 0.8756, IoU: 0.8177
+[2026-04-12 16:36:42,737] ACMS epoch 41 | pool=pool_b | mean_adj_disagreement=0.089644 | ema_adj_disagreement=0.107069 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:36:44,095] Epoch: 41, Dataset: test, Dice: 0.9289, IoU: 0.8761
+[2026-04-12 16:36:45,229] Epoch: 41, Dataset: val, Dice: 0.9066, IoU: 0.8447
+[2026-04-12 16:42:12,246] ACMS epoch 42 | pool=pool_b | mean_adj_disagreement=0.090465 | ema_adj_disagreement=0.105408 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:42:13,707] Epoch: 42, Dataset: test, Dice: 0.9348, IoU: 0.8829
+[2026-04-12 16:42:14,799] Epoch: 42, Dataset: val, Dice: 0.9023, IoU: 0.8426
+[2026-04-12 16:47:40,495] ACMS epoch 43 | pool=pool_b | mean_adj_disagreement=0.094853 | ema_adj_disagreement=0.104353 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:47:41,874] Epoch: 43, Dataset: test, Dice: 0.9393, IoU: 0.8901
+[2026-04-12 16:47:42,932] Epoch: 43, Dataset: val, Dice: 0.8963, IoU: 0.8328
+[2026-04-12 16:53:07,761] ACMS epoch 44 | pool=pool_b | mean_adj_disagreement=0.080672 | ema_adj_disagreement=0.101985 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:53:09,229] Epoch: 44, Dataset: test, Dice: 0.9370, IoU: 0.8879
+[2026-04-12 16:53:10,321] Epoch: 44, Dataset: val, Dice: 0.9126, IoU: 0.8537
+[2026-04-12 16:58:36,222] ACMS epoch 45 | pool=pool_b | mean_adj_disagreement=0.099755 | ema_adj_disagreement=0.101762 | below_threshold_epochs=3 | switched=False
+[2026-04-12 16:58:37,535] Epoch: 45, Dataset: test, Dice: 0.9122, IoU: 0.8578
+[2026-04-12 16:58:38,613] Epoch: 45, Dataset: val, Dice: 0.8780, IoU: 0.8136
+[2026-04-12 17:04:04,688] ACMS epoch 46 | pool=pool_b | mean_adj_disagreement=0.100931 | ema_adj_disagreement=0.101679 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:04:06,027] Epoch: 46, Dataset: test, Dice: 0.9313, IoU: 0.8782
+[2026-04-12 17:04:07,133] Epoch: 46, Dataset: val, Dice: 0.8989, IoU: 0.8362
+[2026-04-12 17:09:31,578] ACMS epoch 47 | pool=pool_b | mean_adj_disagreement=0.086486 | ema_adj_disagreement=0.100159 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:09:32,989] Epoch: 47, Dataset: test, Dice: 0.9300, IoU: 0.8835
+[2026-04-12 17:09:34,101] Epoch: 47, Dataset: val, Dice: 0.9005, IoU: 0.8417
+[2026-04-12 17:14:58,459] ACMS epoch 48 | pool=pool_b | mean_adj_disagreement=0.092260 | ema_adj_disagreement=0.099369 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:14:59,856] Epoch: 48, Dataset: test, Dice: 0.9430, IoU: 0.8956
+[2026-04-12 17:15:00,935] Epoch: 48, Dataset: val, Dice: 0.9244, IoU: 0.8669
+[2026-04-12 17:15:00,935] ### Best Model Saved (Dice improved from 0.9140 to 0.9244) ###
+[2026-04-12 17:20:26,127] ACMS epoch 49 | pool=pool_b | mean_adj_disagreement=0.081430 | ema_adj_disagreement=0.097575 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:20:27,456] Epoch: 49, Dataset: test, Dice: 0.9383, IoU: 0.8892
+[2026-04-12 17:20:28,541] Epoch: 49, Dataset: val, Dice: 0.9082, IoU: 0.8460
+[2026-04-12 17:25:53,672] ACMS epoch 50 | pool=pool_b | mean_adj_disagreement=0.074303 | ema_adj_disagreement=0.095248 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:25:55,013] Epoch: 50, Dataset: test, Dice: 0.9446, IoU: 0.8981
+[2026-04-12 17:25:56,152] Epoch: 50, Dataset: val, Dice: 0.9334, IoU: 0.8804
+[2026-04-12 17:25:56,152] ### Best Model Saved (Dice improved from 0.9244 to 0.9334) ###
+[2026-04-12 17:31:23,293] ACMS epoch 51 | pool=pool_b | mean_adj_disagreement=0.074155 | ema_adj_disagreement=0.093139 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:31:24,752] Epoch: 51, Dataset: test, Dice: 0.9407, IoU: 0.8930
+[2026-04-12 17:31:25,881] Epoch: 51, Dataset: val, Dice: 0.9103, IoU: 0.8545
+[2026-04-12 17:36:52,327] ACMS epoch 52 | pool=pool_b | mean_adj_disagreement=0.077417 | ema_adj_disagreement=0.091567 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:36:53,706] Epoch: 52, Dataset: test, Dice: 0.9303, IoU: 0.8804
+[2026-04-12 17:36:54,820] Epoch: 52, Dataset: val, Dice: 0.9141, IoU: 0.8505
+[2026-04-12 17:42:20,014] ACMS epoch 53 | pool=pool_b | mean_adj_disagreement=0.083377 | ema_adj_disagreement=0.090748 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:42:21,370] Epoch: 53, Dataset: test, Dice: 0.9390, IoU: 0.8887
+[2026-04-12 17:42:22,463] Epoch: 53, Dataset: val, Dice: 0.9097, IoU: 0.8494
+[2026-04-12 17:47:53,676] ACMS epoch 54 | pool=pool_b | mean_adj_disagreement=0.085851 | ema_adj_disagreement=0.090258 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:47:56,140] Epoch: 54, Dataset: test, Dice: 0.9425, IoU: 0.8952
+[2026-04-12 17:47:58,193] Epoch: 54, Dataset: val, Dice: 0.9218, IoU: 0.8676
+[2026-04-12 17:53:27,297] ACMS epoch 55 | pool=pool_b | mean_adj_disagreement=0.079186 | ema_adj_disagreement=0.089151 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:53:28,639] Epoch: 55, Dataset: test, Dice: 0.9296, IoU: 0.8783
+[2026-04-12 17:53:29,827] Epoch: 55, Dataset: val, Dice: 0.9291, IoU: 0.8734
+[2026-04-12 17:58:55,508] ACMS epoch 56 | pool=pool_b | mean_adj_disagreement=0.075827 | ema_adj_disagreement=0.087818 | below_threshold_epochs=3 | switched=False
+[2026-04-12 17:58:56,879] Epoch: 56, Dataset: test, Dice: 0.9412, IoU: 0.8925
+[2026-04-12 17:58:57,969] Epoch: 56, Dataset: val, Dice: 0.9056, IoU: 0.8471
+[2026-04-12 18:04:22,968] ACMS epoch 57 | pool=pool_b | mean_adj_disagreement=0.078653 | ema_adj_disagreement=0.086902 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:04:24,355] Epoch: 57, Dataset: test, Dice: 0.9485, IoU: 0.9040
+[2026-04-12 18:04:25,437] Epoch: 57, Dataset: val, Dice: 0.9305, IoU: 0.8757
+[2026-04-12 18:09:51,669] ACMS epoch 58 | pool=pool_b | mean_adj_disagreement=0.076614 | ema_adj_disagreement=0.085873 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:09:53,017] Epoch: 58, Dataset: test, Dice: 0.9229, IoU: 0.8647
+[2026-04-12 18:09:54,133] Epoch: 58, Dataset: val, Dice: 0.9151, IoU: 0.8572
+[2026-04-12 18:15:21,774] ACMS epoch 59 | pool=pool_b | mean_adj_disagreement=0.074425 | ema_adj_disagreement=0.084728 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:15:23,189] Epoch: 59, Dataset: test, Dice: 0.9434, IoU: 0.8969
+[2026-04-12 18:15:24,337] Epoch: 59, Dataset: val, Dice: 0.9215, IoU: 0.8626
+[2026-04-12 18:20:52,063] ACMS epoch 60 | pool=pool_b | mean_adj_disagreement=0.071016 | ema_adj_disagreement=0.083357 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:20:53,438] Epoch: 60, Dataset: test, Dice: 0.9406, IoU: 0.8912
+[2026-04-12 18:20:54,571] Epoch: 60, Dataset: val, Dice: 0.9247, IoU: 0.8681
+[2026-04-12 18:26:22,027] ACMS epoch 61 | pool=pool_b | mean_adj_disagreement=0.069030 | ema_adj_disagreement=0.081924 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:26:23,436] Epoch: 61, Dataset: test, Dice: 0.9388, IoU: 0.8889
+[2026-04-12 18:26:24,544] Epoch: 61, Dataset: val, Dice: 0.9280, IoU: 0.8723
+[2026-04-12 18:31:52,016] ACMS epoch 62 | pool=pool_b | mean_adj_disagreement=0.083487 | ema_adj_disagreement=0.082081 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:31:53,343] Epoch: 62, Dataset: test, Dice: 0.9415, IoU: 0.8944
+[2026-04-12 18:31:54,393] Epoch: 62, Dataset: val, Dice: 0.8976, IoU: 0.8335
+[2026-04-12 18:37:20,432] ACMS epoch 63 | pool=pool_b | mean_adj_disagreement=0.085668 | ema_adj_disagreement=0.082439 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:37:21,882] Epoch: 63, Dataset: test, Dice: 0.9418, IoU: 0.8935
+[2026-04-12 18:37:23,006] Epoch: 63, Dataset: val, Dice: 0.9087, IoU: 0.8478
+[2026-04-12 18:42:50,356] ACMS epoch 64 | pool=pool_b | mean_adj_disagreement=0.073827 | ema_adj_disagreement=0.081578 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:42:51,740] Epoch: 64, Dataset: test, Dice: 0.9449, IoU: 0.8990
+[2026-04-12 18:42:52,902] Epoch: 64, Dataset: val, Dice: 0.9246, IoU: 0.8693
+[2026-04-12 18:48:20,541] ACMS epoch 65 | pool=pool_b | mean_adj_disagreement=0.073144 | ema_adj_disagreement=0.080735 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:48:21,909] Epoch: 65, Dataset: test, Dice: 0.9422, IoU: 0.8955
+[2026-04-12 18:48:23,010] Epoch: 65, Dataset: val, Dice: 0.9010, IoU: 0.8460
+[2026-04-12 18:53:50,644] ACMS epoch 66 | pool=pool_b | mean_adj_disagreement=0.067803 | ema_adj_disagreement=0.079441 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:53:51,997] Epoch: 66, Dataset: test, Dice: 0.9467, IoU: 0.9011
+[2026-04-12 18:53:53,068] Epoch: 66, Dataset: val, Dice: 0.9183, IoU: 0.8597
+[2026-04-12 18:59:19,133] ACMS epoch 67 | pool=pool_b | mean_adj_disagreement=0.064320 | ema_adj_disagreement=0.077929 | below_threshold_epochs=3 | switched=False
+[2026-04-12 18:59:20,547] Epoch: 67, Dataset: test, Dice: 0.9393, IoU: 0.8898
+[2026-04-12 18:59:21,682] Epoch: 67, Dataset: val, Dice: 0.9127, IoU: 0.8577
+[2026-04-12 19:04:47,904] ACMS epoch 68 | pool=pool_b | mean_adj_disagreement=0.067186 | ema_adj_disagreement=0.076855 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:04:49,265] Epoch: 68, Dataset: test, Dice: 0.9352, IoU: 0.8806
+[2026-04-12 19:04:50,405] Epoch: 68, Dataset: val, Dice: 0.8842, IoU: 0.8157
+[2026-04-12 19:10:17,809] ACMS epoch 69 | pool=pool_b | mean_adj_disagreement=0.093666 | ema_adj_disagreement=0.078536 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:10:19,162] Epoch: 69, Dataset: test, Dice: 0.9267, IoU: 0.8734
+[2026-04-12 19:10:20,286] Epoch: 69, Dataset: val, Dice: 0.8688, IoU: 0.8021
+[2026-04-12 19:15:47,598] ACMS epoch 70 | pool=pool_b | mean_adj_disagreement=0.073210 | ema_adj_disagreement=0.078003 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:15:48,984] Epoch: 70, Dataset: test, Dice: 0.9463, IoU: 0.9013
+[2026-04-12 19:15:50,114] Epoch: 70, Dataset: val, Dice: 0.9262, IoU: 0.8720
+[2026-04-12 19:21:16,657] ACMS epoch 71 | pool=pool_b | mean_adj_disagreement=0.065660 | ema_adj_disagreement=0.076769 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:21:18,077] Epoch: 71, Dataset: test, Dice: 0.9447, IoU: 0.8982
+[2026-04-12 19:21:19,220] Epoch: 71, Dataset: val, Dice: 0.9170, IoU: 0.8598
+[2026-04-12 19:26:46,306] ACMS epoch 72 | pool=pool_b | mean_adj_disagreement=0.068154 | ema_adj_disagreement=0.075908 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:26:47,741] Epoch: 72, Dataset: test, Dice: 0.9450, IoU: 0.8987
+[2026-04-12 19:26:48,887] Epoch: 72, Dataset: val, Dice: 0.9231, IoU: 0.8644
+[2026-04-12 19:32:15,843] ACMS epoch 73 | pool=pool_b | mean_adj_disagreement=0.066663 | ema_adj_disagreement=0.074983 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:32:17,164] Epoch: 73, Dataset: test, Dice: 0.9481, IoU: 0.9037
+[2026-04-12 19:32:18,285] Epoch: 73, Dataset: val, Dice: 0.9060, IoU: 0.8458
+[2026-04-12 19:37:44,942] ACMS epoch 74 | pool=pool_b | mean_adj_disagreement=0.081571 | ema_adj_disagreement=0.075642 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:37:46,296] Epoch: 74, Dataset: test, Dice: 0.9394, IoU: 0.8902
+[2026-04-12 19:37:47,412] Epoch: 74, Dataset: val, Dice: 0.9224, IoU: 0.8686
+[2026-04-12 19:43:14,990] ACMS epoch 75 | pool=pool_b | mean_adj_disagreement=0.072547 | ema_adj_disagreement=0.075333 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:43:16,406] Epoch: 75, Dataset: test, Dice: 0.9168, IoU: 0.8583
+[2026-04-12 19:43:17,598] Epoch: 75, Dataset: val, Dice: 0.8743, IoU: 0.8051
+[2026-04-12 19:48:43,668] ACMS epoch 76 | pool=pool_b | mean_adj_disagreement=0.073946 | ema_adj_disagreement=0.075194 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:48:45,024] Epoch: 76, Dataset: test, Dice: 0.9399, IoU: 0.8923
+[2026-04-12 19:48:46,111] Epoch: 76, Dataset: val, Dice: 0.9333, IoU: 0.8805
+[2026-04-12 19:54:15,644] ACMS epoch 77 | pool=pool_b | mean_adj_disagreement=0.067014 | ema_adj_disagreement=0.074376 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:54:17,024] Epoch: 77, Dataset: test, Dice: 0.9454, IoU: 0.8995
+[2026-04-12 19:54:18,099] Epoch: 77, Dataset: val, Dice: 0.9177, IoU: 0.8642
+[2026-04-12 19:59:45,277] ACMS epoch 78 | pool=pool_b | mean_adj_disagreement=0.059960 | ema_adj_disagreement=0.072934 | below_threshold_epochs=3 | switched=False
+[2026-04-12 19:59:46,622] Epoch: 78, Dataset: test, Dice: 0.9410, IoU: 0.8936
+[2026-04-12 19:59:47,728] Epoch: 78, Dataset: val, Dice: 0.9286, IoU: 0.8731
+[2026-04-12 20:05:13,994] ACMS epoch 79 | pool=pool_b | mean_adj_disagreement=0.062881 | ema_adj_disagreement=0.071929 | below_threshold_epochs=3 | switched=False
+[2026-04-12 20:05:15,360] Epoch: 79, Dataset: test, Dice: 0.9479, IoU: 0.9039
+[2026-04-12 20:05:16,460] Epoch: 79, Dataset: val, Dice: 0.9306, IoU: 0.8775
+[2026-04-12 20:10:41,751] ACMS epoch 80 | pool=pool_b | mean_adj_disagreement=0.062106 | ema_adj_disagreement=0.070947 | below_threshold_epochs=3 | switched=False
+[2026-04-12 20:10:43,111] Epoch: 80, Dataset: test, Dice: 0.9435, IoU: 0.8971
+[2026-04-12 20:10:44,241] Epoch: 80, Dataset: val, Dice: 0.9324, IoU: 0.8797
+[2026-04-12 20:16:30,867] ACMS epoch 81 | pool=pool_b | mean_adj_disagreement=0.062195 | ema_adj_disagreement=0.070072 | below_threshold_epochs=3 | switched=False
+[2026-04-12 20:16:32,815] Epoch: 81, Dataset: test, Dice: 0.9484, IoU: 0.9044
+[2026-04-12 20:16:34,482] Epoch: 81, Dataset: val, Dice: 0.9318, IoU: 0.8788
+[2026-04-12 22:30:52,718] ACMS epoch 82 | pool=pool_b | mean_adj_disagreement=0.062400 | ema_adj_disagreement=0.069304 | below_threshold_epochs=3 | switched=False
+[2026-04-12 22:30:54,013] Epoch: 82, Dataset: test, Dice: 0.9449, IoU: 0.8984
+[2026-04-12 22:30:55,050] Epoch: 82, Dataset: val, Dice: 0.9320, IoU: 0.87868554
+[2026-04-13 00:34:58,590] ACMS epoch 84 | pool=pool_b | mean_adj_disagreement=0.072577 | ema_adj_disagreement=0.069062 | below_threshold_epochs=3 | switched=False
+[2026-04-13 00:34:59,851] Epoch: 84, Dataset: test, Dice: 0.9463, IoU: 0.9011
+[2026-04-13 00:35:00,880] Epoch: 84, Dataset: val, Dice: 0.9236, IoU: 0.8693
+[2026-04-13 01:36:00,044] ACMS epoch 85 | pool=pool_b | mean_adj_disagreement=0.063001 | ema_adj_disagreement=0.068456 | below_threshold_epochs=3 | switched=False
+[2026-04-13 01:36:01,314] Epoch: 85, Dataset: test, Dice: 0.9442, IoU: 0.8973
+[2026-04-13 01:36:02,303] Epoch: 85, Dataset: val, Dice: 0.9291, IoU: 0.8766
+[2026-04-13 02:29:02,448] ACMS epoch 86 | pool=pool_b | mean_adj_disagreement=0.059351 | ema_adj_disagreement=0.067545 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:29:04,649] Epoch: 86, Dataset: test, Dice: 0.9488, IoU: 0.9056
+[2026-04-13 02:29:06,769] Epoch: 86, Dataset: val, Dice: 0.9363, IoU: 0.8858
+[2026-04-13 02:29:06,769] ### Best Model Saved (Dice improved from 0.9334 to 0.9363) ###
+[2026-04-13 02:35:06,431] ACMS epoch 87 | pool=pool_b | mean_adj_disagreement=0.063259 | ema_adj_disagreement=0.067117 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:35:07,786] Epoch: 87, Dataset: test, Dice: 0.9505, IoU: 0.9088
+[2026-04-13 02:35:08,840] Epoch: 87, Dataset: val, Dice: 0.9361, IoU: 0.8852
+[2026-04-13 02:40:44,665] ACMS epoch 88 | pool=pool_b | mean_adj_disagreement=0.059357 | ema_adj_disagreement=0.066341 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:40:45,946] Epoch: 88, Dataset: test, Dice: 0.9456, IoU: 0.8998
+[2026-04-13 02:40:46,945] Epoch: 88, Dataset: val, Dice: 0.9215, IoU: 0.8652
+[2026-04-13 02:46:23,912] ACMS epoch 89 | pool=pool_b | mean_adj_disagreement=0.058351 | ema_adj_disagreement=0.065542 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:46:25,224] Epoch: 89, Dataset: test, Dice: 0.9503, IoU: 0.9080
+[2026-04-13 02:46:26,344] Epoch: 89, Dataset: val, Dice: 0.9226, IoU: 0.8704
+[2026-04-13 02:51:48,569] ACMS epoch 90 | pool=pool_b | mean_adj_disagreement=0.061559 | ema_adj_disagreement=0.065143 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:51:49,860] Epoch: 90, Dataset: test, Dice: 0.9502, IoU: 0.9081
+[2026-04-13 02:51:50,883] Epoch: 90, Dataset: val, Dice: 0.9239, IoU: 0.8699
+[2026-04-13 02:57:12,594] ACMS epoch 91 | pool=pool_b | mean_adj_disagreement=0.060334 | ema_adj_disagreement=0.064662 | below_threshold_epochs=3 | switched=False
+[2026-04-13 02:57:13,989] Epoch: 91, Dataset: test, Dice: 0.9491, IoU: 0.9060
+[2026-04-13 02:57:15,021] Epoch: 91, Dataset: val, Dice: 0.9348, IoU: 0.8831
+[2026-04-13 03:02:34,072] ACMS epoch 92 | pool=pool_b | mean_adj_disagreement=0.059317 | ema_adj_disagreement=0.064128 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:02:35,346] Epoch: 92, Dataset: test, Dice: 0.9461, IoU: 0.9011
+[2026-04-13 03:02:36,374] Epoch: 92, Dataset: val, Dice: 0.9233, IoU: 0.8653
+[2026-04-13 03:07:58,628] ACMS epoch 93 | pool=pool_b | mean_adj_disagreement=0.058547 | ema_adj_disagreement=0.063570 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:08:00,127] Epoch: 93, Dataset: test, Dice: 0.9341, IoU: 0.8830
+[2026-04-13 03:08:01,147] Epoch: 93, Dataset: val, Dice: 0.9107, IoU: 0.8520
+[2026-04-13 03:13:23,569] ACMS epoch 94 | pool=pool_b | mean_adj_disagreement=0.061521 | ema_adj_disagreement=0.063365 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:13:24,918] Epoch: 94, Dataset: test, Dice: 0.9493, IoU: 0.9062
+[2026-04-13 03:13:25,960] Epoch: 94, Dataset: val, Dice: 0.9272, IoU: 0.8719
+[2026-04-13 03:18:59,552] ACMS epoch 95 | pool=pool_b | mean_adj_disagreement=0.057513 | ema_adj_disagreement=0.062780 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:19:00,922] Epoch: 95, Dataset: test, Dice: 0.9429, IoU: 0.8961
+[2026-04-13 03:19:01,985] Epoch: 95, Dataset: val, Dice: 0.9266, IoU: 0.8734
+[2026-04-13 03:24:26,721] ACMS epoch 96 | pool=pool_b | mean_adj_disagreement=0.056851 | ema_adj_disagreement=0.062187 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:24:28,057] Epoch: 96, Dataset: test, Dice: 0.9439, IoU: 0.8983
+[2026-04-13 03:24:29,104] Epoch: 96, Dataset: val, Dice: 0.9206, IoU: 0.8704
+[2026-04-13 03:29:51,618] ACMS epoch 97 | pool=pool_b | mean_adj_disagreement=0.057138 | ema_adj_disagreement=0.061682 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:29:52,910] Epoch: 97, Dataset: test, Dice: 0.9456, IoU: 0.9005
+[2026-04-13 03:29:53,948] Epoch: 97, Dataset: val, Dice: 0.9327, IoU: 0.8806
+[2026-04-13 03:35:17,630] ACMS epoch 98 | pool=pool_b | mean_adj_disagreement=0.055495 | ema_adj_disagreement=0.061063 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:35:18,998] Epoch: 98, Dataset: test, Dice: 0.9452, IoU: 0.8992
+[2026-04-13 03:35:20,202] Epoch: 98, Dataset: val, Dice: 0.9362, IoU: 0.8854
+[2026-04-13 03:40:46,375] ACMS epoch 99 | pool=pool_b | mean_adj_disagreement=0.054373 | ema_adj_disagreement=0.060394 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:40:47,705] Epoch: 99, Dataset: test, Dice: 0.9494, IoU: 0.9069
+[2026-04-13 03:40:48,817] Epoch: 99, Dataset: val, Dice: 0.9357, IoU: 0.8852
+[2026-04-13 03:46:13,855] ACMS epoch 100 | pool=pool_b | mean_adj_disagreement=0.054709 | ema_adj_disagreement=0.059826 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:46:15,219] Epoch: 100, Dataset: test, Dice: 0.9435, IoU: 0.8986
+[2026-04-13 03:46:16,255] Epoch: 100, Dataset: val, Dice: 0.9336, IoU: 0.8814
+[2026-04-13 03:51:43,286] ACMS epoch 101 | pool=pool_b | mean_adj_disagreement=0.056340 | ema_adj_disagreement=0.059477 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:51:44,731] Epoch: 101, Dataset: test, Dice: 0.9476, IoU: 0.9032
+[2026-04-13 03:51:45,807] Epoch: 101, Dataset: val, Dice: 0.9255, IoU: 0.8748
+[2026-04-13 03:57:09,978] ACMS epoch 102 | pool=pool_b | mean_adj_disagreement=0.055111 | ema_adj_disagreement=0.059041 | below_threshold_epochs=3 | switched=False
+[2026-04-13 03:57:11,365] Epoch: 102, Dataset: test, Dice: 0.9420, IoU: 0.8956
+[2026-04-13 03:57:12,435] Epoch: 102, Dataset: val, Dice: 0.9345, IoU: 0.8838
+[2026-04-13 04:02:36,906] ACMS epoch 103 | pool=pool_b | mean_adj_disagreement=0.057890 | ema_adj_disagreement=0.058926 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:02:38,193] Epoch: 103, Dataset: test, Dice: 0.9455, IoU: 0.9015
+[2026-04-13 04:02:39,268] Epoch: 103, Dataset: val, Dice: 0.9375, IoU: 0.8877
+[2026-04-13 04:02:39,268] ### Best Model Saved (Dice improved from 0.9363 to 0.9375) ###
+[2026-04-13 04:08:04,874] ACMS epoch 104 | pool=pool_b | mean_adj_disagreement=0.057069 | ema_adj_disagreement=0.058740 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:08:06,219] Epoch: 104, Dataset: test, Dice: 0.9433, IoU: 0.8971
+[2026-04-13 04:08:07,321] Epoch: 104, Dataset: val, Dice: 0.9353, IoU: 0.8841
+[2026-04-13 04:13:37,629] ACMS epoch 105 | pool=pool_b | mean_adj_disagreement=0.054332 | ema_adj_disagreement=0.058299 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:13:39,132] Epoch: 105, Dataset: test, Dice: 0.9450, IoU: 0.9002
+[2026-04-13 04:13:40,223] Epoch: 105, Dataset: val, Dice: 0.9349, IoU: 0.8847
+[2026-04-13 04:19:12,959] ACMS epoch 106 | pool=pool_b | mean_adj_disagreement=0.053776 | ema_adj_disagreement=0.057847 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:19:14,330] Epoch: 106, Dataset: test, Dice: 0.9444, IoU: 0.8994
+[2026-04-13 04:19:15,400] Epoch: 106, Dataset: val, Dice: 0.9392, IoU: 0.8907
+[2026-04-13 04:19:15,400] ### Best Model Saved (Dice improved from 0.9375 to 0.9392) ###
+[2026-04-13 04:24:39,696] ACMS epoch 107 | pool=pool_b | mean_adj_disagreement=0.052494 | ema_adj_disagreement=0.057312 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:24:41,034] Epoch: 107, Dataset: test, Dice: 0.9465, IoU: 0.9015
+[2026-04-13 04:24:42,065] Epoch: 107, Dataset: val, Dice: 0.9308, IoU: 0.8793
+[2026-04-13 04:30:05,306] ACMS epoch 108 | pool=pool_b | mean_adj_disagreement=0.053331 | ema_adj_disagreement=0.056913 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:30:06,734] Epoch: 108, Dataset: test, Dice: 0.9485, IoU: 0.9050
+[2026-04-13 04:30:07,817] Epoch: 108, Dataset: val, Dice: 0.9217, IoU: 0.8705
+[2026-04-13 04:35:36,639] ACMS epoch 109 | pool=pool_b | mean_adj_disagreement=0.053173 | ema_adj_disagreement=0.056539 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:35:38,022] Epoch: 109, Dataset: test, Dice: 0.9449, IoU: 0.9004
+[2026-04-13 04:35:39,087] Epoch: 109, Dataset: val, Dice: 0.9341, IoU: 0.8824
+[2026-04-13 04:41:02,907] ACMS epoch 110 | pool=pool_b | mean_adj_disagreement=0.053819 | ema_adj_disagreement=0.056267 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:41:04,303] Epoch: 110, Dataset: test, Dice: 0.9479, IoU: 0.9039
+[2026-04-13 04:41:05,393] Epoch: 110, Dataset: val, Dice: 0.9213, IoU: 0.8686
+[2026-04-13 04:46:30,543] ACMS epoch 111 | pool=pool_b | mean_adj_disagreement=0.053601 | ema_adj_disagreement=0.056001 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:46:31,869] Epoch: 111, Dataset: test, Dice: 0.9514, IoU: 0.9091
+[2026-04-13 04:46:32,874] Epoch: 111, Dataset: val, Dice: 0.9274, IoU: 0.8728
+[2026-04-13 04:51:47,716] ACMS epoch 112 | pool=pool_b | mean_adj_disagreement=0.051727 | ema_adj_disagreement=0.055573 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:51:48,993] Epoch: 112, Dataset: test, Dice: 0.9505, IoU: 0.9086
+[2026-04-13 04:51:50,023] Epoch: 112, Dataset: val, Dice: 0.9389, IoU: 0.8898
+[2026-04-13 04:57:11,637] ACMS epoch 113 | pool=pool_b | mean_adj_disagreement=0.051016 | ema_adj_disagreement=0.055118 | below_threshold_epochs=3 | switched=False
+[2026-04-13 04:57:12,927] Epoch: 113, Dataset: test, Dice: 0.9420, IoU: 0.8973
+[2026-04-13 04:57:13,981] Epoch: 113, Dataset: val, Dice: 0.9308, IoU: 0.8769
+[2026-04-13 05:02:33,234] ACMS epoch 114 | pool=pool_b | mean_adj_disagreement=0.051392 | ema_adj_disagreement=0.054745 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:02:34,564] Epoch: 114, Dataset: test, Dice: 0.9495, IoU: 0.9068
+[2026-04-13 05:02:35,597] Epoch: 114, Dataset: val, Dice: 0.9369, IoU: 0.8871
+[2026-04-13 05:07:55,223] ACMS epoch 115 | pool=pool_b | mean_adj_disagreement=0.050792 | ema_adj_disagreement=0.054350 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:07:56,453] Epoch: 115, Dataset: test, Dice: 0.9477, IoU: 0.9036
+[2026-04-13 05:07:57,433] Epoch: 115, Dataset: val, Dice: 0.9297, IoU: 0.8790
+[2026-04-13 05:13:17,811] ACMS epoch 116 | pool=pool_b | mean_adj_disagreement=0.049543 | ema_adj_disagreement=0.053869 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:13:19,103] Epoch: 116, Dataset: test, Dice: 0.9483, IoU: 0.9041
+[2026-04-13 05:13:20,142] Epoch: 116, Dataset: val, Dice: 0.9087, IoU: 0.8544
+[2026-04-13 05:18:39,853] ACMS epoch 117 | pool=pool_b | mean_adj_disagreement=0.051438 | ema_adj_disagreement=0.053626 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:18:41,213] Epoch: 117, Dataset: test, Dice: 0.9486, IoU: 0.9051
+[2026-04-13 05:18:42,243] Epoch: 117, Dataset: val, Dice: 0.9240, IoU: 0.8714
+[2026-04-13 05:24:01,471] ACMS epoch 118 | pool=pool_b | mean_adj_disagreement=0.056229 | ema_adj_disagreement=0.053886 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:24:02,703] Epoch: 118, Dataset: test, Dice: 0.9445, IoU: 0.8996
+[2026-04-13 05:24:03,740] Epoch: 118, Dataset: val, Dice: 0.9268, IoU: 0.8741
+[2026-04-13 05:29:26,593] ACMS epoch 119 | pool=pool_b | mean_adj_disagreement=0.053357 | ema_adj_disagreement=0.053833 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:29:27,988] Epoch: 119, Dataset: test, Dice: 0.9490, IoU: 0.9061
+[2026-04-13 05:29:29,045] Epoch: 119, Dataset: val, Dice: 0.9300, IoU: 0.8779
+[2026-04-13 05:34:44,903] ACMS epoch 120 | pool=pool_b | mean_adj_disagreement=0.050108 | ema_adj_disagreement=0.053461 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:34:46,208] Epoch: 120, Dataset: test, Dice: 0.9477, IoU: 0.9037
+[2026-04-13 05:34:47,191] Epoch: 120, Dataset: val, Dice: 0.9349, IoU: 0.8857
+[2026-04-13 05:40:08,246] ACMS epoch 121 | pool=pool_b | mean_adj_disagreement=0.051454 | ema_adj_disagreement=0.053260 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:40:09,569] Epoch: 121, Dataset: test, Dice: 0.9409, IoU: 0.8958
+[2026-04-13 05:40:10,640] Epoch: 121, Dataset: val, Dice: 0.9366, IoU: 0.8863
+[2026-04-13 05:45:31,026] ACMS epoch 122 | pool=pool_b | mean_adj_disagreement=0.049102 | ema_adj_disagreement=0.052844 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:45:32,326] Epoch: 122, Dataset: test, Dice: 0.9490, IoU: 0.9057
+[2026-04-13 05:45:33,330] Epoch: 122, Dataset: val, Dice: 0.9326, IoU: 0.8834
+[2026-04-13 05:50:53,035] ACMS epoch 123 | pool=pool_b | mean_adj_disagreement=0.049321 | ema_adj_disagreement=0.052492 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:50:54,330] Epoch: 123, Dataset: test, Dice: 0.9488, IoU: 0.9053
+[2026-04-13 05:50:55,368] Epoch: 123, Dataset: val, Dice: 0.9325, IoU: 0.8822
+[2026-04-13 05:56:16,222] ACMS epoch 124 | pool=pool_b | mean_adj_disagreement=0.048152 | ema_adj_disagreement=0.052058 | below_threshold_epochs=3 | switched=False
+[2026-04-13 05:56:17,618] Epoch: 124, Dataset: test, Dice: 0.9501, IoU: 0.9078
+[2026-04-13 05:56:18,664] Epoch: 124, Dataset: val, Dice: 0.9349, IoU: 0.8861
+[2026-04-13 06:01:37,882] ACMS epoch 125 | pool=pool_b | mean_adj_disagreement=0.048352 | ema_adj_disagreement=0.051687 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:01:39,175] Epoch: 125, Dataset: test, Dice: 0.9475, IoU: 0.9034
+[2026-04-13 06:01:40,229] Epoch: 125, Dataset: val, Dice: 0.9362, IoU: 0.8879
+[2026-04-13 06:07:00,199] ACMS epoch 126 | pool=pool_b | mean_adj_disagreement=0.048197 | ema_adj_disagreement=0.051338 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:07:01,469] Epoch: 126, Dataset: test, Dice: 0.9500, IoU: 0.9074
+[2026-04-13 06:07:02,549] Epoch: 126, Dataset: val, Dice: 0.9327, IoU: 0.8830
+[2026-04-13 06:12:22,974] ACMS epoch 127 | pool=pool_b | mean_adj_disagreement=0.047349 | ema_adj_disagreement=0.050939 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:12:24,255] Epoch: 127, Dataset: test, Dice: 0.9498, IoU: 0.9071
+[2026-04-13 06:12:25,320] Epoch: 127, Dataset: val, Dice: 0.9348, IoU: 0.8852
+[2026-04-13 06:17:44,500] ACMS epoch 128 | pool=pool_b | mean_adj_disagreement=0.047725 | ema_adj_disagreement=0.050618 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:17:45,779] Epoch: 128, Dataset: test, Dice: 0.9491, IoU: 0.9058
+[2026-04-13 06:17:46,841] Epoch: 128, Dataset: val, Dice: 0.9318, IoU: 0.8813
+[2026-04-13 06:23:07,295] ACMS epoch 129 | pool=pool_b | mean_adj_disagreement=0.048528 | ema_adj_disagreement=0.050409 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:23:08,781] Epoch: 129, Dataset: test, Dice: 0.9505, IoU: 0.9080
+[2026-04-13 06:23:09,880] Epoch: 129, Dataset: val, Dice: 0.9333, IoU: 0.8829
+[2026-04-13 06:28:24,505] ACMS epoch 130 | pool=pool_b | mean_adj_disagreement=0.047410 | ema_adj_disagreement=0.050109 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:28:25,874] Epoch: 130, Dataset: test, Dice: 0.9497, IoU: 0.9066
+[2026-04-13 06:28:26,954] Epoch: 130, Dataset: val, Dice: 0.9320, IoU: 0.8811
+[2026-04-13 06:33:42,364] ACMS epoch 131 | pool=pool_b | mean_adj_disagreement=0.048708 | ema_adj_disagreement=0.049969 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:33:43,607] Epoch: 131, Dataset: test, Dice: 0.9511, IoU: 0.9092
+[2026-04-13 06:33:44,667] Epoch: 131, Dataset: val, Dice: 0.9332, IoU: 0.8833
+[2026-04-13 06:39:03,745] ACMS epoch 132 | pool=pool_b | mean_adj_disagreement=0.047693 | ema_adj_disagreement=0.049741 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:39:05,017] Epoch: 132, Dataset: test, Dice: 0.9499, IoU: 0.9072
+[2026-04-13 06:39:06,027] Epoch: 132, Dataset: val, Dice: 0.9333, IoU: 0.8833
+[2026-04-13 06:44:25,562] ACMS epoch 133 | pool=pool_b | mean_adj_disagreement=0.046031 | ema_adj_disagreement=0.049370 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:44:26,785] Epoch: 133, Dataset: test, Dice: 0.9492, IoU: 0.9060
+[2026-04-13 06:44:27,785] Epoch: 133, Dataset: val, Dice: 0.9337, IoU: 0.8839
+[2026-04-13 06:49:44,319] ACMS epoch 134 | pool=pool_b | mean_adj_disagreement=0.045916 | ema_adj_disagreement=0.049025 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:49:45,611] Epoch: 134, Dataset: test, Dice: 0.9498, IoU: 0.9071
+[2026-04-13 06:49:46,596] Epoch: 134, Dataset: val, Dice: 0.9351, IoU: 0.8861
+[2026-04-13 06:55:02,526] ACMS epoch 135 | pool=pool_b | mean_adj_disagreement=0.046601 | ema_adj_disagreement=0.048782 | below_threshold_epochs=3 | switched=False
+[2026-04-13 06:55:03,811] Epoch: 135, Dataset: test, Dice: 0.9494, IoU: 0.9066
+[2026-04-13 06:55:04,820] Epoch: 135, Dataset: val, Dice: 0.9337, IoU: 0.8843
+[2026-04-13 07:00:20,392] ACMS epoch 136 | pool=pool_b | mean_adj_disagreement=0.045459 | ema_adj_disagreement=0.048450 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:00:21,644] Epoch: 136, Dataset: test, Dice: 0.9511, IoU: 0.9096
+[2026-04-13 07:00:22,625] Epoch: 136, Dataset: val, Dice: 0.9300, IoU: 0.8803
+[2026-04-13 07:05:39,592] ACMS epoch 137 | pool=pool_b | mean_adj_disagreement=0.045863 | ema_adj_disagreement=0.048191 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:05:40,918] Epoch: 137, Dataset: test, Dice: 0.9493, IoU: 0.9062
+[2026-04-13 07:05:41,953] Epoch: 137, Dataset: val, Dice: 0.9357, IoU: 0.8852
+[2026-04-13 07:10:54,948] ACMS epoch 138 | pool=pool_b | mean_adj_disagreement=0.047902 | ema_adj_disagreement=0.048162 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:10:56,198] Epoch: 138, Dataset: test, Dice: 0.9505, IoU: 0.9082
+[2026-04-13 07:10:57,175] Epoch: 138, Dataset: val, Dice: 0.9339, IoU: 0.8836
+[2026-04-13 07:16:17,705] ACMS epoch 139 | pool=pool_b | mean_adj_disagreement=0.045760 | ema_adj_disagreement=0.047922 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:16:18,965] Epoch: 139, Dataset: test, Dice: 0.9499, IoU: 0.9071
+[2026-04-13 07:16:20,045] Epoch: 139, Dataset: val, Dice: 0.9240, IoU: 0.8760
+[2026-04-13 07:21:40,995] ACMS epoch 140 | pool=pool_b | mean_adj_disagreement=0.045899 | ema_adj_disagreement=0.047720 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:21:42,226] Epoch: 140, Dataset: test, Dice: 0.9478, IoU: 0.9039
+[2026-04-13 07:21:43,223] Epoch: 140, Dataset: val, Dice: 0.9356, IoU: 0.8869
+[2026-04-13 07:27:02,593] ACMS epoch 141 | pool=pool_b | mean_adj_disagreement=0.044567 | ema_adj_disagreement=0.047405 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:27:03,883] Epoch: 141, Dataset: test, Dice: 0.9496, IoU: 0.9069
+[2026-04-13 07:27:04,935] Epoch: 141, Dataset: val, Dice: 0.9363, IoU: 0.8877
+[2026-04-13 07:32:15,674] ACMS epoch 142 | pool=pool_b | mean_adj_disagreement=0.044696 | ema_adj_disagreement=0.047134 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:32:16,906] Epoch: 142, Dataset: test, Dice: 0.9512, IoU: 0.9096
+[2026-04-13 07:32:17,916] Epoch: 142, Dataset: val, Dice: 0.9364, IoU: 0.8863
+[2026-04-13 07:38:22,856] ACMS epoch 143 | pool=pool_b | mean_adj_disagreement=0.045302 | ema_adj_disagreement=0.046951 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:38:24,594] Epoch: 143, Dataset: test, Dice: 0.9492, IoU: 0.9064
+[2026-04-13 07:38:26,024] Epoch: 143, Dataset: val, Dice: 0.9328, IoU: 0.8824
+[2026-04-13 07:45:48,691] ACMS epoch 144 | pool=pool_b | mean_adj_disagreement=0.045713 | ema_adj_disagreement=0.046827 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:45:50,584] Epoch: 144, Dataset: test, Dice: 0.9509, IoU: 0.9092
+[2026-04-13 07:45:52,020] Epoch: 144, Dataset: val, Dice: 0.9379, IoU: 0.8886
+[2026-04-13 07:53:04,413] ACMS epoch 145 | pool=pool_b | mean_adj_disagreement=0.044548 | ema_adj_disagreement=0.046599 | below_threshold_epochs=3 | switched=False
+[2026-04-13 07:53:06,282] Epoch: 145, Dataset: test, Dice: 0.9502, IoU: 0.9078
+[2026-04-13 07:53:07,752] Epoch: 145, Dataset: val, Dice: 0.9366, IoU: 0.8864
+[2026-04-13 08:00:23,696] ACMS epoch 146 | pool=pool_b | mean_adj_disagreement=0.043742 | ema_adj_disagreement=0.046313 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:00:25,513] Epoch: 146, Dataset: test, Dice: 0.9510, IoU: 0.9092
+[2026-04-13 08:00:26,813] Epoch: 146, Dataset: val, Dice: 0.9357, IoU: 0.8857
+[2026-04-13 08:07:41,333] ACMS epoch 147 | pool=pool_b | mean_adj_disagreement=0.045830 | ema_adj_disagreement=0.046265 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:07:42,967] Epoch: 147, Dataset: test, Dice: 0.9497, IoU: 0.9069
+[2026-04-13 08:07:44,428] Epoch: 147, Dataset: val, Dice: 0.9341, IoU: 0.8850
+[2026-04-13 08:15:01,890] ACMS epoch 148 | pool=pool_b | mean_adj_disagreement=0.043258 | ema_adj_disagreement=0.045964 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:15:03,855] Epoch: 148, Dataset: test, Dice: 0.9489, IoU: 0.9057
+[2026-04-13 08:15:05,256] Epoch: 148, Dataset: val, Dice: 0.9364, IoU: 0.8861
+[2026-04-13 08:22:11,800] ACMS epoch 149 | pool=pool_b | mean_adj_disagreement=0.043547 | ema_adj_disagreement=0.045723 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:22:13,549] Epoch: 149, Dataset: test, Dice: 0.9495, IoU: 0.9066
+[2026-04-13 08:22:14,980] Epoch: 149, Dataset: val, Dice: 0.9392, IoU: 0.8909
+[2026-04-13 08:29:33,195] ACMS epoch 150 | pool=pool_b | mean_adj_disagreement=0.044465 | ema_adj_disagreement=0.045597 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:29:35,538] Epoch: 150, Dataset: test, Dice: 0.9487, IoU: 0.9055
+[2026-04-13 08:29:37,793] Epoch: 150, Dataset: val, Dice: 0.9371, IoU: 0.8880
+[2026-04-13 08:36:15,464] ACMS epoch 151 | pool=pool_b | mean_adj_disagreement=0.044761 | ema_adj_disagreement=0.045513 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:36:17,015] Epoch: 151, Dataset: test, Dice: 0.9501, IoU: 0.9076
+[2026-04-13 08:36:18,290] Epoch: 151, Dataset: val, Dice: 0.9382, IoU: 0.8891
+[2026-04-13 08:42:39,885] ACMS epoch 152 | pool=pool_b | mean_adj_disagreement=0.043554 | ema_adj_disagreement=0.045317 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:42:41,440] Epoch: 152, Dataset: test, Dice: 0.9502, IoU: 0.9079
+[2026-04-13 08:42:42,832] Epoch: 152, Dataset: val, Dice: 0.9375, IoU: 0.8885
+[2026-04-13 08:49:04,924] ACMS epoch 153 | pool=pool_b | mean_adj_disagreement=0.043471 | ema_adj_disagreement=0.045133 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:49:06,522] Epoch: 153, Dataset: test, Dice: 0.9505, IoU: 0.9085
+[2026-04-13 08:49:07,755] Epoch: 153, Dataset: val, Dice: 0.9343, IoU: 0.8851
+[2026-04-13 08:55:32,346] ACMS epoch 154 | pool=pool_b | mean_adj_disagreement=0.042966 | ema_adj_disagreement=0.044916 | below_threshold_epochs=3 | switched=False
+[2026-04-13 08:55:33,945] Epoch: 154, Dataset: test, Dice: 0.9502, IoU: 0.9081
+[2026-04-13 08:55:35,130] Epoch: 154, Dataset: val, Dice: 0.9393, IoU: 0.8910
+[2026-04-13 08:55:35,130] ### Best Model Saved (Dice improved from 0.9392 to 0.9393) ###
+[2026-04-13 09:01:56,556] ACMS epoch 155 | pool=pool_b | mean_adj_disagreement=0.042796 | ema_adj_disagreement=0.044704 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:01:58,210] Epoch: 155, Dataset: test, Dice: 0.9494, IoU: 0.9066
+[2026-04-13 09:01:59,509] Epoch: 155, Dataset: val, Dice: 0.9383, IoU: 0.8909
+[2026-04-13 09:08:22,000] ACMS epoch 156 | pool=pool_b | mean_adj_disagreement=0.042663 | ema_adj_disagreement=0.044500 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:08:23,567] Epoch: 156, Dataset: test, Dice: 0.9491, IoU: 0.9060
+[2026-04-13 09:08:24,862] Epoch: 156, Dataset: val, Dice: 0.9372, IoU: 0.8898
+[2026-04-13 09:14:50,897] ACMS epoch 157 | pool=pool_b | mean_adj_disagreement=0.042686 | ema_adj_disagreement=0.044318 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:14:52,490] Epoch: 157, Dataset: test, Dice: 0.9501, IoU: 0.9078
+[2026-04-13 09:14:53,818] Epoch: 157, Dataset: val, Dice: 0.9358, IoU: 0.8876
+[2026-04-13 09:21:15,516] ACMS epoch 158 | pool=pool_b | mean_adj_disagreement=0.042069 | ema_adj_disagreement=0.044093 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:21:17,146] Epoch: 158, Dataset: test, Dice: 0.9508, IoU: 0.9091
+[2026-04-13 09:21:18,355] Epoch: 158, Dataset: val, Dice: 0.9382, IoU: 0.8915
+[2026-04-13 09:27:40,549] ACMS epoch 159 | pool=pool_b | mean_adj_disagreement=0.043005 | ema_adj_disagreement=0.043985 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:27:42,115] Epoch: 159, Dataset: test, Dice: 0.9493, IoU: 0.9062
+[2026-04-13 09:27:43,434] Epoch: 159, Dataset: val, Dice: 0.9360, IoU: 0.8879
+[2026-04-13 09:34:06,755] ACMS epoch 160 | pool=pool_b | mean_adj_disagreement=0.043160 | ema_adj_disagreement=0.043902 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:34:08,383] Epoch: 160, Dataset: test, Dice: 0.9503, IoU: 0.9082
+[2026-04-13 09:34:09,818] Epoch: 160, Dataset: val, Dice: 0.9358, IoU: 0.8870
+[2026-04-13 09:40:34,799] ACMS epoch 161 | pool=pool_b | mean_adj_disagreement=0.041595 | ema_adj_disagreement=0.043671 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:40:36,739] Epoch: 161, Dataset: test, Dice: 0.9517, IoU: 0.9105
+[2026-04-13 09:40:38,029] Epoch: 161, Dataset: val, Dice: 0.9356, IoU: 0.8871
+[2026-04-13 09:47:05,563] ACMS epoch 162 | pool=pool_b | mean_adj_disagreement=0.041362 | ema_adj_disagreement=0.043440 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:47:08,247] Epoch: 162, Dataset: test, Dice: 0.9521, IoU: 0.9113
+[2026-04-13 09:47:10,786] Epoch: 162, Dataset: val, Dice: 0.9377, IoU: 0.8907
+[2026-04-13 09:53:37,879] ACMS epoch 163 | pool=pool_b | mean_adj_disagreement=0.041579 | ema_adj_disagreement=0.043254 | below_threshold_epochs=3 | switched=False
+[2026-04-13 09:53:39,468] Epoch: 163, Dataset: test, Dice: 0.9524, IoU: 0.9117
+[2026-04-13 09:53:40,770] Epoch: 163, Dataset: val, Dice: 0.9304, IoU: 0.8810
+[2026-04-13 10:00:06,109] ACMS epoch 164 | pool=pool_b | mean_adj_disagreement=0.040024 | ema_adj_disagreement=0.042931 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:00:07,770] Epoch: 164, Dataset: test, Dice: 0.9515, IoU: 0.9101
+[2026-04-13 10:00:09,020] Epoch: 164, Dataset: val, Dice: 0.9377, IoU: 0.8908
+[2026-04-13 10:06:33,172] ACMS epoch 165 | pool=pool_b | mean_adj_disagreement=0.041689 | ema_adj_disagreement=0.042807 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:06:34,816] Epoch: 165, Dataset: test, Dice: 0.9513, IoU: 0.9097
+[2026-04-13 10:06:36,128] Epoch: 165, Dataset: val, Dice: 0.9372, IoU: 0.8896
+[2026-04-13 10:12:58,624] ACMS epoch 166 | pool=pool_b | mean_adj_disagreement=0.041711 | ema_adj_disagreement=0.042697 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:13:00,238] Epoch: 166, Dataset: test, Dice: 0.9519, IoU: 0.9108
+[2026-04-13 10:13:01,552] Epoch: 166, Dataset: val, Dice: 0.9375, IoU: 0.8900
+[2026-04-13 10:19:22,171] ACMS epoch 167 | pool=pool_b | mean_adj_disagreement=0.041390 | ema_adj_disagreement=0.042567 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:19:23,783] Epoch: 167, Dataset: test, Dice: 0.9525, IoU: 0.9117
+[2026-04-13 10:19:25,059] Epoch: 167, Dataset: val, Dice: 0.9363, IoU: 0.8885
+[2026-04-13 10:25:49,330] ACMS epoch 168 | pool=pool_b | mean_adj_disagreement=0.042319 | ema_adj_disagreement=0.042542 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:25:50,911] Epoch: 168, Dataset: test, Dice: 0.9519, IoU: 0.9107
+[2026-04-13 10:25:52,238] Epoch: 168, Dataset: val, Dice: 0.9373, IoU: 0.8899
+[2026-04-13 10:32:16,022] ACMS epoch 169 | pool=pool_b | mean_adj_disagreement=0.042388 | ema_adj_disagreement=0.042526 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:32:17,965] Epoch: 169, Dataset: test, Dice: 0.9517, IoU: 0.9104
+[2026-04-13 10:32:19,231] Epoch: 169, Dataset: val, Dice: 0.9388, IoU: 0.8925
+[2026-04-13 10:38:40,746] ACMS epoch 170 | pool=pool_b | mean_adj_disagreement=0.040847 | ema_adj_disagreement=0.042359 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:38:42,587] Epoch: 170, Dataset: test, Dice: 0.9516, IoU: 0.9103
+[2026-04-13 10:38:43,917] Epoch: 170, Dataset: val, Dice: 0.9378, IoU: 0.8909
+[2026-04-13 10:45:06,591] ACMS epoch 171 | pool=pool_b | mean_adj_disagreement=0.041722 | ema_adj_disagreement=0.042295 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:45:08,441] Epoch: 171, Dataset: test, Dice: 0.9515, IoU: 0.9100
+[2026-04-13 10:45:09,792] Epoch: 171, Dataset: val, Dice: 0.9378, IoU: 0.8909
+[2026-04-13 10:51:31,398] ACMS epoch 172 | pool=pool_b | mean_adj_disagreement=0.040609 | ema_adj_disagreement=0.042126 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:51:32,996] Epoch: 172, Dataset: test, Dice: 0.9516, IoU: 0.9101
+[2026-04-13 10:51:34,580] Epoch: 172, Dataset: val, Dice: 0.9355, IoU: 0.8876
+[2026-04-13 10:57:55,747] ACMS epoch 173 | pool=pool_b | mean_adj_disagreement=0.041862 | ema_adj_disagreement=0.042100 | below_threshold_epochs=3 | switched=False
+[2026-04-13 10:57:57,351] Epoch: 173, Dataset: test, Dice: 0.9518, IoU: 0.9106
+[2026-04-13 10:57:58,631] Epoch: 173, Dataset: val, Dice: 0.9350, IoU: 0.8865
+[2026-04-13 11:03:50,635] ACMS epoch 174 | pool=pool_b | mean_adj_disagreement=0.040914 | ema_adj_disagreement=0.041981 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:03:51,968] Epoch: 174, Dataset: test, Dice: 0.9510, IoU: 0.9093
+[2026-04-13 11:03:52,970] Epoch: 174, Dataset: val, Dice: 0.9354, IoU: 0.8873
+[2026-04-13 11:09:26,024] ACMS epoch 175 | pool=pool_b | mean_adj_disagreement=0.040766 | ema_adj_disagreement=0.041860 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:09:27,438] Epoch: 175, Dataset: test, Dice: 0.9510, IoU: 0.9091
+[2026-04-13 11:09:28,503] Epoch: 175, Dataset: val, Dice: 0.9370, IoU: 0.8897
+[2026-04-13 11:14:53,988] ACMS epoch 176 | pool=pool_b | mean_adj_disagreement=0.041673 | ema_adj_disagreement=0.041841 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:14:55,289] Epoch: 176, Dataset: test, Dice: 0.9516, IoU: 0.9103
+[2026-04-13 11:14:56,285] Epoch: 176, Dataset: val, Dice: 0.9372, IoU: 0.8897
+[2026-04-13 11:20:29,853] ACMS epoch 177 | pool=pool_b | mean_adj_disagreement=0.041027 | ema_adj_disagreement=0.041760 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:20:31,196] Epoch: 177, Dataset: test, Dice: 0.9518, IoU: 0.9105
+[2026-04-13 11:20:32,344] Epoch: 177, Dataset: val, Dice: 0.9364, IoU: 0.8889
+[2026-04-13 11:26:06,848] ACMS epoch 178 | pool=pool_b | mean_adj_disagreement=0.039968 | ema_adj_disagreement=0.041580 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:26:08,105] Epoch: 178, Dataset: test, Dice: 0.9521, IoU: 0.9111
+[2026-04-13 11:26:09,127] Epoch: 178, Dataset: val, Dice: 0.9373, IoU: 0.8902
+[2026-04-13 11:31:28,739] ACMS epoch 179 | pool=pool_b | mean_adj_disagreement=0.040288 | ema_adj_disagreement=0.041451 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:31:30,047] Epoch: 179, Dataset: test, Dice: 0.9522, IoU: 0.9112
+[2026-04-13 11:31:31,055] Epoch: 179, Dataset: val, Dice: 0.9377, IoU: 0.8908
+[2026-04-13 11:36:53,341] ACMS epoch 180 | pool=pool_b | mean_adj_disagreement=0.040303 | ema_adj_disagreement=0.041336 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:36:55,376] Epoch: 180, Dataset: test, Dice: 0.9518, IoU: 0.9105
+[2026-04-13 11:36:57,128] Epoch: 180, Dataset: val, Dice: 0.9372, IoU: 0.8897
+[2026-04-13 11:42:19,952] ACMS epoch 181 | pool=pool_b | mean_adj_disagreement=0.039881 | ema_adj_disagreement=0.041191 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:42:21,197] Epoch: 181, Dataset: test, Dice: 0.9517, IoU: 0.9105
+[2026-04-13 11:42:22,212] Epoch: 181, Dataset: val, Dice: 0.9379, IoU: 0.8908
+[2026-04-13 11:47:47,217] ACMS epoch 182 | pool=pool_b | mean_adj_disagreement=0.040238 | ema_adj_disagreement=0.041095 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:47:48,500] Epoch: 182, Dataset: test, Dice: 0.9518, IoU: 0.9105
+[2026-04-13 11:47:49,504] Epoch: 182, Dataset: val, Dice: 0.9372, IoU: 0.8899
+[2026-04-13 11:53:06,702] ACMS epoch 183 | pool=pool_b | mean_adj_disagreement=0.041169 | ema_adj_disagreement=0.041103 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:53:07,953] Epoch: 183, Dataset: test, Dice: 0.9514, IoU: 0.9098
+[2026-04-13 11:53:08,960] Epoch: 183, Dataset: val, Dice: 0.9373, IoU: 0.8900
+[2026-04-13 11:58:26,540] ACMS epoch 184 | pool=pool_b | mean_adj_disagreement=0.040395 | ema_adj_disagreement=0.041032 | below_threshold_epochs=3 | switched=False
+[2026-04-13 11:58:27,782] Epoch: 184, Dataset: test, Dice: 0.9519, IoU: 0.9108
+[2026-04-13 11:58:28,787] Epoch: 184, Dataset: val, Dice: 0.9376, IoU: 0.8905
+[2026-04-13 12:03:47,432] ACMS epoch 185 | pool=pool_b | mean_adj_disagreement=0.040330 | ema_adj_disagreement=0.040962 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:03:48,803] Epoch: 185, Dataset: test, Dice: 0.9519, IoU: 0.9108
+[2026-04-13 12:03:49,810] Epoch: 185, Dataset: val, Dice: 0.9373, IoU: 0.8901
+[2026-04-13 12:09:06,349] ACMS epoch 186 | pool=pool_b | mean_adj_disagreement=0.040731 | ema_adj_disagreement=0.040939 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:09:07,629] Epoch: 186, Dataset: test, Dice: 0.9520, IoU: 0.9110
+[2026-04-13 12:09:08,635] Epoch: 186, Dataset: val, Dice: 0.9374, IoU: 0.8900
+[2026-04-13 12:14:27,417] ACMS epoch 187 | pool=pool_b | mean_adj_disagreement=0.039083 | ema_adj_disagreement=0.040753 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:14:28,652] Epoch: 187, Dataset: test, Dice: 0.9523, IoU: 0.9115
+[2026-04-13 12:14:29,676] Epoch: 187, Dataset: val, Dice: 0.9374, IoU: 0.8901
+[2026-04-13 12:19:55,955] ACMS epoch 188 | pool=pool_b | mean_adj_disagreement=0.039522 | ema_adj_disagreement=0.040630 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:19:57,236] Epoch: 188, Dataset: test, Dice: 0.9521, IoU: 0.9111
+[2026-04-13 12:19:58,254] Epoch: 188, Dataset: val, Dice: 0.9374, IoU: 0.8902
+[2026-04-13 12:25:25,995] ACMS epoch 189 | pool=pool_b | mean_adj_disagreement=0.039382 | ema_adj_disagreement=0.040505 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:25:27,246] Epoch: 189, Dataset: test, Dice: 0.9521, IoU: 0.9112
+[2026-04-13 12:25:28,249] Epoch: 189, Dataset: val, Dice: 0.9370, IoU: 0.8893
+[2026-04-13 12:30:34,613] ACMS epoch 190 | pool=pool_b | mean_adj_disagreement=0.048037 | ema_adj_disagreement=0.041258 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:30:35,882] Epoch: 190, Dataset: test, Dice: 0.9520, IoU: 0.9109
+[2026-04-13 12:30:36,903] Epoch: 190, Dataset: val, Dice: 0.9371, IoU: 0.8896
+[2026-04-13 12:35:42,159] ACMS epoch 191 | pool=pool_b | mean_adj_disagreement=0.040413 | ema_adj_disagreement=0.041174 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:35:43,386] Epoch: 191, Dataset: test, Dice: 0.9519, IoU: 0.9107
+[2026-04-13 12:35:44,358] Epoch: 191, Dataset: val, Dice: 0.9371, IoU: 0.8896
+[2026-04-13 12:40:52,040] ACMS epoch 192 | pool=pool_b | mean_adj_disagreement=0.039809 | ema_adj_disagreement=0.041037 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:40:53,292] Epoch: 192, Dataset: test, Dice: 0.9518, IoU: 0.9105
+[2026-04-13 12:40:54,266] Epoch: 192, Dataset: val, Dice: 0.9368, IoU: 0.8892
+[2026-04-13 12:46:00,747] ACMS epoch 193 | pool=pool_b | mean_adj_disagreement=0.040320 | ema_adj_disagreement=0.040966 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:46:01,981] Epoch: 193, Dataset: test, Dice: 0.9520, IoU: 0.9109
+[2026-04-13 12:46:02,931] Epoch: 193, Dataset: val, Dice: 0.9365, IoU: 0.8888
+[2026-04-13 12:51:09,012] ACMS epoch 194 | pool=pool_b | mean_adj_disagreement=0.040775 | ema_adj_disagreement=0.040946 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:51:10,239] Epoch: 194, Dataset: test, Dice: 0.9521, IoU: 0.9112
+[2026-04-13 12:51:11,300] Epoch: 194, Dataset: val, Dice: 0.9368, IoU: 0.8891
+[2026-04-13 12:56:19,337] ACMS epoch 195 | pool=pool_b | mean_adj_disagreement=0.040349 | ema_adj_disagreement=0.040887 | below_threshold_epochs=3 | switched=False
+[2026-04-13 12:56:20,533] Epoch: 195, Dataset: test, Dice: 0.9522, IoU: 0.9113
+[2026-04-13 12:56:21,544] Epoch: 195, Dataset: val, Dice: 0.9368, IoU: 0.8892
+[2026-04-13 13:01:30,218] ACMS epoch 196 | pool=pool_b | mean_adj_disagreement=0.038616 | ema_adj_disagreement=0.040660 | below_threshold_epochs=3 | switched=False
+[2026-04-13 13:01:31,546] Epoch: 196, Dataset: test, Dice: 0.9522, IoU: 0.9114
+[2026-04-13 13:01:32,577] Epoch: 196, Dataset: val, Dice: 0.9364, IoU: 0.8887
+[2026-04-13 13:06:39,786] ACMS epoch 197 | pool=pool_b | mean_adj_disagreement=0.040202 | ema_adj_disagreement=0.040614 | below_threshold_epochs=3 | switched=False
+[2026-04-13 13:06:40,996] Epoch: 197, Dataset: test, Dice: 0.9520, IoU: 0.9109
+[2026-04-13 13:06:42,012] Epoch: 197, Dataset: val, Dice: 0.9367, IoU: 0.8891
+[2026-04-13 13:12:06,120] ACMS epoch 198 | pool=pool_b | mean_adj_disagreement=0.039466 | ema_adj_disagreement=0.040499 | below_threshold_epochs=3 | switched=False
+[2026-04-13 13:12:07,380] Epoch: 198, Dataset: test, Dice: 0.9523, IoU: 0.9114
+[2026-04-13 13:12:08,464] Epoch: 198, Dataset: val, Dice: 0.9370, IoU: 0.8896
+[2026-04-13 13:17:48,117] ACMS epoch 199 | pool=pool_b | mean_adj_disagreement=0.039988 | ema_adj_disagreement=0.040448 | below_threshold_epochs=3 | switched=False
+[2026-04-13 13:17:49,418] Epoch: 199, Dataset: test, Dice: 0.9520, IoU: 0.9110
+[2026-04-13 13:17:50,435] Epoch: 199, Dataset: val, Dice: 0.9368, IoU: 0.8893
+[2026-04-13 13:23:10,684] ACMS epoch 200 | pool=pool_b | mean_adj_disagreement=0.040267 | ema_adj_disagreement=0.040430 | below_threshold_epochs=3 | switched=False
+[2026-04-13 13:23:11,992] Epoch: 200, Dataset: test, Dice: 0.9524, IoU: 0.9116
+[2026-04-13 13:23:13,083] Epoch: 200, Dataset: val, Dice: 0.9368, IoU: 0.8891
+[2026-04-13 13:23:13,084] 
+========================================
+FINAL RESULTS: ClinicDB_pvt_v2_b2_EMCAD_kernel_sizes_1_3_5_dw_parallel_add_lgag_ks_3_ef2_act_mscb_relu6_bs8_cas_lr0.0005_e200_augTrue_run1_seed240412_acms_thr0p22_pat3_min15_t122251
+Best Val Dice: 0.9393
+Test Dice at Best Val: 0.9502
+Total Train Time: 89486.57s
+========================================

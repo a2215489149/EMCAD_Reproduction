@@ -1,0 +1,7 @@
+{
+  "checkpoint": "D:\\Python\\EMCAD\\EMCAD\\model_pth\\pvt_v2_b2_EMCAD_kernel_sizes_1_3_5_dw_parallel_add_lgag_ks_3_ef2_act_mscb_relu6_loss_mutation_output_final_layer_Run1_Synapse224\\pvt_v2_b2_EMCAD_kernel_sizes_1_3_5_dw_parallel_add_lgag_ks_3_ef2_act_mscb_relu6_loss_mutation_output_final_layer_Run1_pretrain_bs6_224_s2222_tstop_v2p0_t2p0_m150\\best.pth",
+  "mean_dice_pct": 81.785959,
+  "mean_hd95": 17.802449,
+  "mean_jacard_pct": 72.387252,
+  "mean_asd": 3.308491
+}

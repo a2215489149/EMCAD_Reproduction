@@ -62,7 +62,7 @@ def test(model, path, dataset, opt, save_base=None):
     test_loader = get_loader(
         image_root=image_root, gt_root=gt_root, 
         batchsize=opt.test_batchsize, trainsize=opt.img_size,
-        shuffle=False, split='test', color_image=opt.color_image
+        shuffle=False, num_workers=opt.num_workers, split='test', color_image=opt.color_image
     )
     
     DSC, IOU, total_images = 0.0, 0.0, 0
@@ -128,6 +128,7 @@ if __name__ == '__main__':
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--img_size', type=int, default=352)
     parser.add_argument('--test_batchsize', type=int, default=1)
+    parser.add_argument('--num_workers', type=int, default=4)
     parser.add_argument('--color_image', default=True)
     parser.add_argument('--test_path', type=str, default='./data/polyp/target/')
     opt = parser.parse_args()

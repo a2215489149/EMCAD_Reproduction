@@ -15,7 +15,10 @@ import pandas as pd
 
 from thop import profile
 from thop import clever_format
-from ptflops import get_model_complexity_info
+try:
+    from ptflops import get_model_complexity_info
+except ImportError:
+    get_model_complexity_info = None
 
 def powerset(seq):
     """
@@ -197,19 +200,20 @@ def test_single_volume(image, label, net, classes, patch_size=[256, 256], test_s
                 #Image.fromarray((label[ind, :, :]/8 * 255).astype(np.uint8)).save(test_save_path + '/'+case + '' +str(ind)+'_gt.png')
                 #cmap = plt.cm.tab20(np.arange(len(mask_labels)))
                 
-                lbl = label[ind, :, :]
-                masks = []
-                for i in range(1, classes):
-                    masks.append(lbl==i)
-                preds_o = []
-                for i in range(1, classes):
-                    preds_o.append(pred==i)
-                
-                fig_gt = overlay_masks(image[ind, :, :], masks, labels=mask_labels, colors=cmap, mask_alpha=0.5)
-                fig_pred = overlay_masks(image[ind, :, :], preds_o, labels=mask_labels, colors=cmap, mask_alpha=0.5)
-                # Do with that image whatever you want to do.
-                fig_gt.savefig(test_save_path + '/' + case + '_' +str(ind) + '_gt.png', bbox_inches="tight", dpi=300)
-                fig_pred.savefig(test_save_path + '/' + case + '_' +str(ind) + '_pred.png', bbox_inches="tight", dpi=300)
+                if test_save_path is not None:
+                    lbl = label[ind, :, :]
+                    masks = []
+                    for i in range(1, classes):
+                        masks.append(lbl==i)
+                    preds_o = []
+                    for i in range(1, classes):
+                        preds_o.append(pred==i)
+                    
+                    fig_gt = overlay_masks(image[ind, :, :], masks, labels=mask_labels, colors=cmap, mask_alpha=0.5)
+                    fig_pred = overlay_masks(image[ind, :, :], preds_o, labels=mask_labels, colors=cmap, mask_alpha=0.5)
+                    # Do with that image whatever you want to do.
+                    fig_gt.savefig(test_save_path + '/' + case + '_' +str(ind) + '_gt.png', bbox_inches="tight", dpi=300)
+                    fig_pred.savefig(test_save_path + '/' + case + '_' +str(ind) + '_pred.png', bbox_inches="tight", dpi=300)
 
     else:
         input = torch.from_numpy(image).unsqueeze(
@@ -314,6 +318,8 @@ def print_model_stats(model, input_size=(3, 224, 224)):
     print(f'Model created, param count: {total_params}')
     
     # Calculate GMACs using ptflops
+    if get_model_complexity_info is None:
+        raise ImportError("ptflops is not available with the current torch version")
     macs, params = get_model_complexity_info(model, input_size, as_strings=True, print_per_layer_stat=True)
     
     # Display GMACs and params

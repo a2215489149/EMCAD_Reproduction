@@ -55,6 +55,8 @@ parser.add_argument('--batch_size', type=int, default=6,
 parser.add_argument('--base_lr', type=float,  default=0.0001, help='segmentation network learning rate')
 parser.add_argument('--img_size', type=int, default=224, help='input patch size of network input')
 parser.add_argument('--is_savenii', action="store_true", default=True, help='whether to save results during inference')
+parser.add_argument('--no_save_outputs', action="store_true", default=False, help='disable saving predictions and visualizations during inference')
+parser.add_argument('--num_workers', type=int, default=1, help='number of dataloader workers for testing')
 
 parser.add_argument('--test_save_dir', type=str, default='predictions', help='saving prediction as nii!')
 parser.add_argument('--deterministic', type=int,  default=1, help='whether use deterministic training')
@@ -68,7 +70,7 @@ else:
 
 def inference(args, model, test_save_path=None):
     db_test = args.Dataset(base_dir=args.volume_path, split="test_vol", list_dir=args.list_dir, nclass=args.num_classes)
-    testloader = DataLoader(db_test, batch_size=1, shuffle=False, num_workers=1)
+    testloader = DataLoader(db_test, batch_size=1, shuffle=False, num_workers=args.num_workers)
     logging.info("{} test iterations per epoch".format(len(testloader)))
     model.eval()
     metric_list = 0.0
@@ -117,6 +119,8 @@ if __name__ == "__main__":
     args.Dataset = dataset_config[dataset_name]['Dataset']
     args.list_dir = dataset_config[dataset_name]['list_dir']
     args.z_spacing = dataset_config[dataset_name]['z_spacing']
+    if args.no_save_outputs:
+        args.is_savenii = False
     print(args.no_pretrain)
 
     if args.concatenation:

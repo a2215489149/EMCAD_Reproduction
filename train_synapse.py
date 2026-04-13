@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 import random
+import sys
 import numpy as np
 import torch
 import torch.nn as nn
@@ -50,6 +51,14 @@ parser.add_argument('--max_epochs', type=int,
                     default=300, help='maximum epoch number to train')
 parser.add_argument('--batch_size', type=int,
                     default=6, help='batch_size per gpu')
+parser.add_argument('--grad_accum_steps', type=int, default=1,
+                    help='number of optimizer accumulation steps for effective batch size')
+parser.add_argument('--num_workers', type=int, default=8,
+                    help='number of dataloader workers for training')
+parser.add_argument('--test_num_workers', type=int, default=1,
+                    help='number of dataloader workers for validation/testing')
+parser.add_argument('--no_pin_memory', action='store_true', default=False,
+                    help='disable dataloader pin_memory')
 parser.add_argument('--base_lr', type=float,  default=0.0001,
                     help='segmentation network learning rate')
 parser.add_argument('--img_size', type=int,
@@ -59,6 +68,33 @@ parser.add_argument('--deterministic', type=int,  default=1,
                     help='whether use deterministic training')
 parser.add_argument('--seed', type=int,
                     default=2222, help='random seed')
+parser.add_argument('--save_interval', type=int, default=50,
+                    help='epochs between checkpoint snapshots')
+parser.add_argument('--enable_target_stop', action='store_true', default=False,
+                    help='run full official Synapse test when quick validation gets close to the paper target')
+parser.add_argument('--paper_target_dice', type=float, default=83.63,
+                    help='paper mean Dice target in percentage points')
+parser.add_argument('--val_trigger_margin', type=float, default=2.0,
+                    help='trigger full test when quick validation Dice is within this many points of the paper target')
+parser.add_argument('--test_accept_margin', type=float, default=1.0,
+                    help='accept early stop when official test Dice is within this many points of the paper target')
+parser.add_argument('--target_stop_min_epoch', type=int, default=1,
+                    help='minimum epoch before target-stop checks are allowed')
+parser.add_argument('--target_stop_retest_delta', type=float, default=0.1,
+                    help='minimum quick validation Dice improvement in percentage points before rerunning full test')
+parser.add_argument('--target_stop_record_csv', type=str,
+                    default=os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'artifacts', 'experiment_summary.csv')),
+                    help='CSV file that records accepted target-stop results')
+parser.add_argument('--resume_checkpoint', type=str, default=None,
+                    help='path to a Synapse checkpoint to resume from (.pth weights-only or *_resume.pt full state)')
+parser.add_argument('--resume_epoch', type=int, default=None,
+                    help='next epoch index to run when resuming from a weights-only checkpoint')
+parser.add_argument('--resume_iter', type=int, default=None,
+                    help='global iteration to continue from when resuming from a weights-only checkpoint')
+parser.add_argument('--resume_best_performance', type=float, default=None,
+                    help='best validation Dice seen before resume, in raw 0-1 scale')
+parser.add_argument('--resume_best_target_stop_probe', type=float, default=None,
+                    help='best quick validation Dice that already triggered target-stop probing, in raw 0-1 scale')
 
 args = parser.parse_args()
 
@@ -110,12 +146,17 @@ if __name__ == "__main__":
     snapshot_path = snapshot_path+'_'+str(args.max_iterations)[0:2]+'k' if args.max_iterations != 50000 else snapshot_path
     snapshot_path = snapshot_path + '_epo' +str(args.max_epochs) if args.max_epochs != 300 else snapshot_path
     snapshot_path = snapshot_path+'_bs'+str(args.batch_size)
+    snapshot_path = snapshot_path+'_acc'+str(args.grad_accum_steps) if args.grad_accum_steps != 1 else snapshot_path
     snapshot_path = snapshot_path + '_lr' + str(args.base_lr) if args.base_lr != 0.0001 else snapshot_path
     snapshot_path = snapshot_path + '_'+str(args.img_size)
     snapshot_path = snapshot_path + '_s'+str(args.seed) if args.seed!=1234 else snapshot_path
+    if args.enable_target_stop:
+        snapshot_path = snapshot_path + '_tstop_v' + str(args.val_trigger_margin).replace('.', 'p') + '_t' + str(args.test_accept_margin).replace('.', 'p') + '_m' + str(args.target_stop_min_epoch)
 
     if not os.path.exists(snapshot_path):
         os.makedirs(snapshot_path)
+
+    args.command_line = 'train_synapse.py ' + ' '.join(sys.argv[1:])
     
     model = EMCADNet(num_classes=args.num_classes, kernel_sizes=args.kernel_sizes, expansion_factor=args.expansion_factor, dw_parallel=not args.no_dw_parallel, add=not args.concatenation, lgag_ks=args.lgag_ks, activation=args.activation_mscb, encoder=args.encoder, pretrain= not args.no_pretrain, pretrained_dir=args.pretrained_dir)
 
